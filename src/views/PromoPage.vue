@@ -94,7 +94,7 @@
 
       <div class="we">
         <div class="we-img">
-          <img src="@/image/pro.jpg" class="we-image">
+          <img src="/image/pro.jpg" class="we-image">
         </div>
 
         <div class="we-text">
@@ -159,7 +159,7 @@
       <h2 class="mini-title">этапы SMM:</h2>
 
       <div class="chart">
-        <img src="@/image/smm-logo.png" class="chart-img">
+        <img src="/image/smm-logo.png" class="chart-img">
         <Number
             width="390px"
             height="195px"

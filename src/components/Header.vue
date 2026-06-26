@@ -13,11 +13,11 @@
 
         <!-- Центр: навигация -->
         <nav class="header__nav">
-          <a href="/" class="nav__icon">
+          <router-link to="/" class="nav__icon">
             <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
               <path d="M16 34.0004H32M22.0354 5.52848L8.47078 16.0787C7.56404 16.784 7.11068 17.1366 6.78406 17.5782C6.49474 17.9694 6.2792 18.4101 6.14806 18.8786C6 19.4075 6 19.9819 6 21.1306V35.6004C6 37.8406 6 38.9608 6.43598 39.8164C6.81946 40.569 7.43138 41.181 8.18404 41.5644C9.03968 42.0004 10.1598 42.0004 12.4 42.0004H35.6C37.8402 42.0004 38.9604 42.0004 39.816 41.5644C40.5686 41.181 41.1806 40.569 41.564 39.8164C42 38.9608 42 37.8406 42 35.6004V21.1306C42 19.9819 42 19.4075 41.852 18.8786C41.7208 18.4101 41.5052 17.9694 41.216 17.5782C40.8894 17.1366 40.436 16.784 39.5292 16.0787L25.9646 5.52848C25.262 4.98198 24.9106 4.70872 24.5226 4.60368C24.1804 4.511 23.8196 4.511 23.4774 4.60368C23.0894 4.70872 22.738 4.98198 22.0354 5.52848Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
-          </a>
+          </router-link>
 
           <div class="nav__menu-icon" @click="toggleMenu">
             <svg width="77" height="68" viewBox="0 0 77 68" fill="none">
@@ -27,7 +27,7 @@
         </nav>
 
         <div class="header__links">
-          <a href="/calcul">Калькулятор</a>
+          <router-link to="/calcul">Калькулятор</router-link>
           <a @click="toggleContactMenu">Связаться</a>
         </div>
       </div>
@@ -36,10 +36,10 @@
     <div class="dropdown-menu" v-if="isDropdownOpen">
       <div class="dropdown-menu__inner">
         <ul class="dropdown-menu__list">
-          <li><a href="/about" @click="closeMenu">О компании</a></li>
-          <li><a href="/cases" @click="closeMenu">Кейсы</a></li>
-          <li><a href="/calcul" @click="closeMenu">Калькулятор</a></li>
-          <li><a href="/contact" @click="closeMenu">Контакты</a></li>
+          <li><router-link to="/about" @click="closeMenu">О компании</router-link></li>
+          <li><router-link to="/cases" @click="closeMenu">Кейсы</router-link></li>
+          <li><router-link to="/calcul" @click="closeMenu">Калькулятор</router-link></li>
+          <li><router-link to="/contact" @click="closeMenu">Контакты</router-link></li>
         </ul>
 
       </div>

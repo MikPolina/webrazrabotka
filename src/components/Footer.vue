@@ -29,10 +29,10 @@
         <div class="footer__nav">
           <ul class="footer__nav-list">
             <li><a href="/">Главная</a></li>
-            <li><a href="/about">О компании</a></li>
-            <li><a href="/contact">Контакты</a></li>
-            <li><a href="/calcul">Калькулятор</a></li>
-            <li><a href="/cases">Кейсы</a></li>
+            <li><router-link to="/about">О компании</router-link></li>
+            <li><router-link to="/contact">Контакты</router-link></li>
+            <li><router-link to="/calcul">Калькулятор</router-link></li>
+            <li><router-link to="/cases">Кейсы</router-link></li>
           </ul>
         </div>
 

@@ -71,7 +71,7 @@
       </div>
 
       <div class="big-title"><h2>ПРОДВИЖЕНИЕ САЙТА В ЯНДЕКСЕ</h2></div>
-      <div class="image"><img src="@/image/yandex.png" class="img"></div>
+      <div class="image"><img src="/image/yandex.png" class="img"></div>
 
       <div class="text"><p>SEO-продвижение в Яндексе — это комплекс мер по оптимизации сайта для высоких позиций в поисковой
         выдаче, включающий техническую доработку, сбор семантики через Wordstat, создание контента и улучшение поведенческих

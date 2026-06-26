@@ -39,15 +39,15 @@
     </div>
 
     <div class="banners">
-      <img src="@/image/ban1.png" class="banner">
-      <img src="@/image/ban2.png" class="banner">
-      <img src="@/image/ban3.png" class="banner">
+      <img src="/image/ban1.png" class="banner">
+      <img src="/image/ban2.png" class="banner">
+      <img src="/image/ban3.png" class="banner">
     </div>
 
     <h2 class="mini-title">вы получите:</h2>
 
     <div class="pluses">
-      <img src="@/image/sound.png" class="pluses-back">
+      <img src="/image/sound.png" class="pluses-back">
       <div class="pluses-block">
         <GradientBlock text="Звонки и заявки от клиентов" />
         <GradientBlock text="Повышение узнаваемости бренда" />
@@ -123,7 +123,7 @@
 
     <div class="rounds">
       <Round
-          :image="`/src/image/yandex.png`"
+          :image="`/image/yandex.png`"
           :items="[
     'Один из самых популярных поисковиков в России и СНГ',
     'Настройка таргетинга по географии, полу, возрасту и другим параметрам',
@@ -136,7 +136,7 @@
       />
 
       <Round
-          :image="`/src/image/google.webp`"
+          :image="`/image/google.webp`"
           :items="[
     'Подходит для России и других стран СНГ (клик может быть дешевле, чем в Яндексе)',
     'Таргетинг по географии, демографии, интересам',
@@ -147,13 +147,13 @@
       />
 
       <Round
-          :image="`/src/image/mail.png`"
+          :image="`/image/mail.png`"
           :items="[
     'Охватывает Одноклассники и Мой Мир (миллионы пользователей)',
     'Подходит для рекламы групп, пабликов и разделов сайта',
     'Настройка по географии, интересам, доходу, демографии, радиусу',
     'Ретаргетинг доступен',
-    'Товары@mail.ru — для интернет-магазинов'
+    'Товары@mail.ru — для интернет-магазинов'
   ]"
       />
     </div>
@@ -187,7 +187,7 @@
     <div class="second-title"><h1>ВЕДЕНИЕ АВИТО</h1></div>
 
     <div class="avito">
-      <img src="@/image/avito.png" class="avito-img">
+      <img src="/image/avito.png" class="avito-img">
 
       <div class="avito-text"><p>Сайт-витрина с объявлениями на Авито – самая актуальная реклама.
         Авито приносит часто больше клиентов, чем Яндекс: десятки миллионов горячих покупателей.
@@ -445,7 +445,7 @@ h1 {
 }
 
 .info{
-  background-image: url("@/image/reclama.jpg");
+  background-image: url("/image/reclama.jpg");
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
